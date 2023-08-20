@@ -97,6 +97,19 @@ body{
     width: 100%;
 }
 
+#demo {
+    max-width: 800px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    margin-bottom: 50px;
+}
+.carousel-inner {
+    max-width: 100%; /* Asegura que las imágenes no se salgan del carrusel */
+}
+
+.carousel-item img {
+    max-width: 100%; /* Ajusta el tamaño de las imágenes dentro del carrusel */
+    height: auto;
+}
 /* .carrusel {
     margin-bottom: 20px;
     margin-left: 36%;

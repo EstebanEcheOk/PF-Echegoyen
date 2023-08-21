@@ -87,6 +87,11 @@ body{
     padding-bottom: 30px;
     height: 100%;
     width: 100%;
+    transition: all 0.4s;
+}
+
+.titulo:hover{
+    transform: scale(1.15); 
 }
 
 .titulo1 {
@@ -95,46 +100,28 @@ body{
     align-items: center;
     height: 50%;
     width: 100%;
+    transition: all 0.4s;
 }
 
+.titulo1:hover{
+    transform: scale(1.15); 
+}
+
+
 #demo {
-    max-width: 800px; /* Ajusta este valor según tus necesidades */
-    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    max-width: 700px; 
+    margin: 0 auto; 
     margin-bottom: 50px;
 }
 .carousel-inner {
-    max-width: 100%; /* Asegura que las imágenes no se salgan del carrusel */
+    max-width: 100%; 
 }
 
 .carousel-item img {
-    max-width: 100%; /* Ajusta el tamaño de las imágenes dentro del carrusel */
+    max-width: 100%; 
     height: auto;
 }
-/* .carrusel {
-    margin-bottom: 20px;
-    margin-left: 36%;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: auto; 
-    overflow: hidden;
-    position: relative;
-    background-color: #000000;
-}
 
-.imagen {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    }
-
-.imagen.mostrar {
-    opacity: 1;
-} */
 
 /*MUSICA*/
 
@@ -311,8 +298,12 @@ footer i{
     align-items: center;    
 }
 
-footer i:hover{
+.logofooter:hover{
     filter: grayscale(50%);
+}
+
+footer i:hover{
+    filter: grayscale(100%);
 }
 
 

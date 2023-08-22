@@ -87,12 +87,12 @@ body{
     padding-bottom: 30px;
     height: 100%;
     width: 100%;
-    transition: all 0.4s;
+    /* transition: all 0.4s; */
 }
 
-.titulo:hover{
-    transform: scale(1.15); 
-}
+/* .titulo:hover{
+    transform: scale(1.05); 
+} */
 
 .titulo1 {
     display: flex;
@@ -100,12 +100,12 @@ body{
     align-items: center;
     height: 50%;
     width: 100%;
-    transition: all 0.4s;
+    /* transition: all 0.4s; */
 }
 
-.titulo1:hover{
-    transform: scale(1.15); 
-}
+/* .titulo1:hover{
+    transform: scale(1.05); 
+} */
 
 
 #demo {

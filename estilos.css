@@ -9,7 +9,7 @@ html{
 }
 
 header{
-    background-color: #FFE599;
+    background-image: linear-gradient(to left top, #ffe599, #fee69b, #fee69e, #fde7a0, #fde7a2, #fde8a5, #fde8a9, #fde9ac, #fdeab1, #fdebb6, #fdecba, #fdedbf);
     height: 197px;
     font-size: 22px;
     padding: 5px;
@@ -275,7 +275,7 @@ body{
 
 /*FOOTER*/
 footer {
-    background-color: #FFE599;
+    background-image: linear-gradient(to left top, #ffe599, #fee69b, #fee69e, #fde7a0, #fde7a2, #fde8a5, #fde8a9, #fde9ac, #fdeab1, #fdebb6, #fdecba, #fdedbf);
     color: black;
     font-family: 'Montserrat', sans-serif;
     text-align: center;

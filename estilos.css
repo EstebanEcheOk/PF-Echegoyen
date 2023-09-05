@@ -9,16 +9,20 @@ html{
 }
 
 header{
-    background-image: linear-gradient(to left top, #ffe599, #fee69b, #fee69e, #fde7a0, #fde7a2, #fde8a5, #fde8a9, #fde9ac, #fdeab1, #fdebb6, #fdecba, #fdedbf);
-    height: 197px;
+    background-image: linear-gradient(to top, #000000, #060606, #0b0b0b, #101010, #141414, #171717, #191919, #1c1c1c, #1f1f1f, #212121, #242424, #272727);
+    height: 250px;
     font-size: 22px;
     padding: 5px;
-    border: 0px solid rgb(75, 74, 74)
+    border-bottom: 50px solid rgb(0, 0, 0)
 }
 
 header img .logo{
     display: flex;
 }  
+
+.logo:hover{
+    filter: grayscale(50%);
+}
 
 .navbar{
     float: right;
@@ -52,7 +56,7 @@ body{
     justify-content: center;
     align-items: center;*/
     height: 100%;
-    background-image: linear-gradient(to left top, #000000, #030303, #070707, #0a0a0a, #0d0d0d, #0f0f10, #121112, #141314, #161516, #181818, #1a1a1a, #1c1c1c);
+    background-image: linear-gradient(to bottom, #000000, #020202, #040404, #060606, #080808, #0b0b0b, #0e0e0e, #101010, #131313, #151515, #181818, #1a1a1a);
     background-size: cover;
     }
 
@@ -275,7 +279,8 @@ body{
 
 /*FOOTER*/
 footer {
-    background-image: linear-gradient(to left top, #ffe599, #fee69b, #fee69e, #fde7a0, #fde7a2, #fde8a5, #fde8a9, #fde9ac, #fdeab1, #fdebb6, #fdecba, #fdedbf);
+    background-image: linear-gradient(to top, #000000, #030303, #060606, #080808, #0b0b0b, #0e0e0e, #101010, #121212, #141414, #161616, #181818, #1a1a1a);
+    border-top: 2px solid black;
     color: black;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -285,10 +290,11 @@ footer {
 
 footer p {
     margin-bottom: 20px;
+    color: rgb(95, 95, 95);
 }
 
 footer i{
-    color: #f7a63d;
+    color: rgb(95, 95, 95);
     font-size: 30px;
     letter-spacing: 20px;
 }
@@ -304,14 +310,14 @@ footer i{
 }
 
 footer i:hover{
-    filter: grayscale(100%);
+    color:#FA3343;
 }
 
 
 .subir{
     height: 30px;
     width: 30px;
-    color: #f7a63d;
+    color: rgb(95, 95, 95);
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -324,7 +330,7 @@ footer i:hover{
 }
 
 .subir:hover{
-    filter: grayscale(100%);
+    color:#FA3343;
 }
 
 ::-webkit-scrollbar{
@@ -333,7 +339,7 @@ footer i:hover{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #FFE599;
+    background-color: #272727;
     border: 1px solid  black;
     
 }

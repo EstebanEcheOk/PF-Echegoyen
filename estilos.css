@@ -244,11 +244,16 @@ body{
 }
 
 .mensaje i{
-    color: #fabc6a;
+    color: #FA3343;
     font-size: 30px;
     letter-spacing: 20px;
     margin-left: 20px;
 }
+
+.mensaje i:hover{
+    color: rgb(95, 95, 95);
+}
+
 
 
 .formulario{
@@ -275,6 +280,59 @@ body{
     height: 25px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .mensaje {
+        margin: 20px;
+        color: white;
+        width: auto;
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mensaje i{
+        color: #FA3343;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .mensaje i:hover{
+        color: rgb(95, 95, 95);
+    }
+    
+    .formulario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario .grupo {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .formulario input, .formulario textarea{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .formulario label{
+        margin-bottom: 5px;
+    }
+
+    .formulario input[type="submit"], .formulario input[type="reset"] {
+        width: auto; 
+        margin-top: 15px; 
+        padding: 10px 20px; 
+        font-size: 14px; 
+        text-align: center; 
+        line-height: 10px;
+    }
+}
 
 
 /*FOOTER*/

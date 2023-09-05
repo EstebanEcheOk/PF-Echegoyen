@@ -103,6 +103,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
     height: 50%;
     width: 100%;
     /* transition: all 0.4s; */

@@ -52,9 +52,6 @@ header img .logo{
 }
 
 body{
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     height: 100%;
     background-image: linear-gradient(to bottom, #000000, #020202, #040404, #060606, #080808, #0b0b0b, #0e0e0e, #101010, #131313, #151515, #181818, #1a1a1a);
     background-size: cover;
@@ -83,7 +80,6 @@ body{
     margin-top: 20px;
 }
 
-
 .titulo {
     display: flex;
     justify-content: center;
@@ -92,12 +88,7 @@ body{
     padding-bottom: 30px;
     height: 100%;
     width: 100%;
-    /* transition: all 0.4s; */
 }
-
-/* .titulo:hover{
-    transform: scale(1.05); 
-} */
 
 .titulo1 {
     display: flex;
@@ -107,13 +98,7 @@ body{
     margin-top: 50px;
     height: 50%;
     width: 100%;
-    /* transition: all 0.4s; */
 }
-
-/* .titulo1:hover{
-    transform: scale(1.05); 
-} */
-
 
 #demo {
     max-width: 700px; 
@@ -129,6 +114,17 @@ body{
     height: auto;
 }
 
+@media screen and (max-width: 768px) {
+    .textobio {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .textobio {
+        font-size: 15px;
+    }
+}
 
 /*MUSICA*/
 
@@ -169,6 +165,7 @@ body{
 
 
 /*VIDEOS*/
+
 .videos a{
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -338,6 +335,7 @@ body{
 
 
 /*FOOTER*/
+
 footer {
     background-image: linear-gradient(to top, #000000, #030303, #060606, #080808, #0b0b0b, #0e0e0e, #101010, #121212, #141414, #161616, #181818, #1a1a1a);
     border-top: 2px solid black;

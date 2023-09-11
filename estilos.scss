@@ -47,7 +47,17 @@ header{
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
+    .navbar{
+    float: right;
+
+        a{
+        font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
     .navbar{
     float: right;
 
@@ -57,22 +67,12 @@ header{
     }
 }
 
-@media screen and (max-width: 850px) {
-    .navbar{
-    float: right;
-
-        a{
-        font-size: 14px;
-        }
-    }
-}
-
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 720px) {
     .navbar{
         float: right;
 
         a{
-        font-size: 12px;
+        font-size: 14px;
         }
     }
 }
@@ -82,7 +82,7 @@ header{
         float: right;
 
         a{
-        font-size: 10px;
+        font-size: 12px;
         }
     }
 }

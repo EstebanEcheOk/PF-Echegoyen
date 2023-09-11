@@ -1,0 +1,17 @@
+Técnicas de SEO utilizadas
+
+-SEO on-page:
+-Meta description
+-Keywords
+-Títulos de páginas
+-Jerarquía de encabezados (utilizado con imagenes, respetando la tipografía del logo)
+
+-SEO off-page:
+-Links en footer a todas las redes sociales
+
+-SEO técnico:
+-Diseño responsivo para vistas móviles
+
+Accesibilidad:
+Se le coloca descripción a las fotos indicando a que se refiere cada foto de manera inclusiva.
+-Optimización de imagenes y archivos.

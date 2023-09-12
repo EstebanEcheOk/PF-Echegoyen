@@ -104,6 +104,14 @@ body {
   flex: 1;
   margin-top: 20px;
 }
+.textobio a {
+  color: #5f5f5f;
+  text-decoration: none;
+}
+
+.textobio a:hover {
+  color: #FA3343;
+}
 
 .titulo {
   display: flex;
@@ -290,7 +298,7 @@ body {
   height: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .mensaje {
     margin: 20px;
     color: #ffffff;
@@ -411,6 +419,4 @@ footer i:hover {
 ::-webkit-scrollbar-thumb {
   background-color: #272727;
   border: 1px solid black;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

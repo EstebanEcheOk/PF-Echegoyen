@@ -122,6 +122,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     flex: 1;   
     margin-top: 20px;
+
+    a{
+        color: $color3;
+        text-decoration: none;
+    }
+}
+
+.textobio a:hover{
+    color: $color1;
 }
 
 .titulo {
